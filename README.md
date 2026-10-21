@@ -22,7 +22,8 @@ Repositories that promote changes through a `staging` branch also set:
 
 ## Policy
 
-- Runs are scheduled weekly before 9 AM Monday in `America/New_York`.
+- Routine updates are scheduled daily during the 8 AM–noon window in
+  `America/New_York`, allowing the hosted runner to process them around 9 AM.
 - Minor, patch, pin, and digest updates are grouped by package ecosystem and
   automerged after their status checks pass.
 - Major updates remain separate and require manual review.
